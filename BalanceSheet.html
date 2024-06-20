@@ -1,0 +1,139 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Balance Sheet</h1>
+        <div class="section">
+            <h2>Assets</h2>
+            <table>
+                <tr>
+                    <th>Current Assets</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>Cash</td>
+                    <td>$10,000</td>
+                </tr>
+                <tr>
+                    <td>Accounts Receivable</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr>
+                    <td>Inventory</td>
+                    <td>$7,000</td>
+                </tr>
+                <tr>
+                    <th>Total Current Assets</th>
+                    <th>$22,000</th>
+                </tr>
+                <tr>
+                    <th>Fixed Assets</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>Equipment</td>
+                    <td>$15,000</td>
+                </tr>
+                <tr>
+                    <td>Buildings</td>
+                    <td>$50,000</td>
+                </tr>
+                <tr>
+                    <th>Total Fixed Assets</th>
+                    <th>$65,000</th>
+                </tr>
+                <tr>
+                    <th>Total Assets</th>
+                    <th>$87,000</th>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <h2>Liabilities</h2>
+            <table>
+                <tr>
+                    <th>Current Liabilities</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>Accounts Payable</td>
+                    <td>$8,000</td>
+                </tr>
+                <tr>
+                    <td>Short-term Loans</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr>
+                    <th>Total Current Liabilities</th>
+                    <th>$13,000</th>
+                </tr>
+                <tr>
+                    <th>Long-term Liabilities</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>Mortgage Payable</td>
+                    <td>$30,000</td>
+                </tr>
+                <tr>
+                    <th>Total Long-term Liabilities</th>
+                    <th>$30,000</th>
+                </tr>
+                <tr>
+                    <th>Total Liabilities</th>
+                    <th>$43,000</th>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <h2>Owner's Equity</h2>
+            <table>
+                <tr>
+                    <th>Owner's Capital</th>
+                    <th>Amount</th>
+                </tr>
+                <tr>
+                    <td>Owner's Investment</td>
+                    <td>$30,000</td>
+                </tr>
+                <tr>
+                    <td>Retained Earnings</td>
+                    <td>$14,000</td>
+                </tr>
+                <tr>
+                    <th>Total Owner's Equity</th>
+                    <th>$44,000</th>
+                </tr>
+            </table>
+        </div>
+        <div class="section">
+            <h2>Result</h2>
+            <table>
+                <tr>
+                    <th>Total Assets</th>
+                    <th>$87,000</th>
+                </tr>
+                <tr>
+                    <th>Total Liabilities and Owner's Equity</th>
+                    <th>$87,000</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <button id="open-pdf">Download PDF</button>
+        <script>
+        document.getElementById('open-pdf').addEventListener('click', function() {
+            const pdfUrl ='BalanceSheet.html';
+            window.location.href = pdfUrl;
+        });
+    </script>
+</div>
+    </script>
+</body>
+</html>
